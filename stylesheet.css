@@ -1,0 +1,159 @@
+
+
+/* tags */
+
+body {
+	background-color: black;
+	scroll-behavior: smooth;
+}
+
+
+h6{
+	margin-top: 100px;
+	font-weight: lighter;
+	text-align: center;
+	font-style: italic;
+	font-family: 'Inter', sans-serif;
+	color: white;
+	animation-name: fadein;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+}
+
+h5{
+	display: flex;
+	justify-content: center;
+	font-family: 'Inter', sans-serif;
+	color: white;
+	margin-bottom: 20px;
+	font-style: italic;
+	font-weight: lighter !important;
+}
+h2 {
+	display: flex;
+	justify-content: center;
+	font-family: 'Inter', sans-serif;
+	color: red;
+	margin-bottom: 20px;
+}
+
+/* IDS */
+
+
+@keyframes fadein {
+	0%{opacity: 0%;}
+	100% {opacity: 100%;}
+}
+
+#logo{
+	margin-bottom: 150px;
+	height: 140px;
+	width: 35%;
+	animation-name: fadein;
+	animation-duration: 3s;
+	animation-timing-function: ease-in;
+}
+
+#p-container{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 20px;
+	width: 70%;
+	margin:  auto;
+	color: white;
+	border: 5px solid white;
+	margin-bottom: 50px;
+}
+#p-container li{
+	font-weight: lighter;
+}
+#hifi-container{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	width: 40%;
+	margin:  auto;
+	color: white;
+	border: 5px solid white;
+	margin-bottom: 50px;
+}
+#hifi-feedback-container{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	width: 70%;
+	margin:  auto;
+	color: white;
+	border: 5px solid white;
+	margin-bottom: 50px;
+}
+#lofi-container{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	width: 85%;
+	margin:  auto;
+	color: white;
+	border: 5px solid white;
+	margin-bottom: 50px;
+}
+#lofi-container img{
+	width: 1028px;
+	height: 624px;
+}
+#text-p{
+	text-align: center;
+	font-weight: lighter;
+	margin: 10px;
+}
+#key{
+	text-align: left;
+	font-weight: lighter;
+	margin: 10px;
+}
+@keyframes mymove{
+  0% {top: 0px;}
+  50% {top: 10px}
+  100% {top: 0px}
+}
+
+#arrow{
+	height: 60px;
+	width: 60px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+  	position: relative;
+  	animation: mymove 1.5s infinite;
+  	margin-bottom: 150px !important;
+  	background-color: black;
+}
+
+#arrow:hover{
+  	transition: all .3s ease-in-out 0s;
+  	transform: scale(1.2, 1.2);
+}
+
+#blockquote {
+	font-style: italic;
+	font-weight: lighter;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+#numhead {
+	color: red;
+}
+
+#footer{
+	text-align: center;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+a:hover{
+	transition: ease-in-out .3s;
+	color: red !important;
+}
+/* classes */
+
