@@ -206,21 +206,19 @@
     		</ol>
     		<div class="carousel-inner">
         		<div class="carousel-item active">
-            		<iframe id="vid1" height="500" width="850" 
-						src="user_video_1.mp4">
-					</iframe>
+            			<video width="850" height="500" controls>
+    					<source src="user_video_1.mp4" type="video/mp4">
+				</video>
         		</div>
         		<div class="carousel-item">
-           			<iframe id="vid2" height="500" width="850" 
-						src="user_video_2.mp4">
-					</iframe>
+           			<video width="850" height="500" controls>
+    					<source src="user_video_2.mp4" type="video/mp4">
+				</video>
         		</div>
         		<div class="carousel-item">
-            		<video class="d-block w-100">
-            			<iframe id="vid3" height="500" width="850" 
-						src="user_video_3.mp4">
-					</iframe>
-            		</video>
+				<video width="850" height="500" controls>
+    					<source src="user_video_3.mp4" type="video/mp4">
+				</video>
         		</div> 
     		</div>
     		<a class="carousel-control-prev" href="#carouselvideos" role="button" data-slide="prev">
@@ -248,13 +246,5 @@
 	<nav id="footer">
 		<a href="https://cinapse.io/" style="text-decoration: none; color: white; font-weight: lighter;"> Learn More About Cinapse Here</a>
 	</nav>
-	<script>
-		var vid1 = document.getElementById("vid1");
-		var vid2 = document.getElementById("vid2");
-		var vid3 = document.getElementById("vid3");
-		vid1.pause();
-		vid2.pause();
-		vid3.pause();
-	</script>
 </body>
 </html>
